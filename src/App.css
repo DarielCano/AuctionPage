@@ -1,0 +1,48 @@
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.btn {
+    cursor: pointer;
+    min-width: 6rem;
+    background-color: var(--btn-color);
+    border: 0;
+    border-radius: 15px;
+    padding: 0.5rem;
+    color: white;
+    transition: all 0.5s ease;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--btn-color);
+    /*     font-weight: bold; */
+    border: thin solid var(--btn-color);
+}
+
+.loader {
+    width: 5rem;
+    height: 5rem;
+    margin: 50% auto;
+
+}
+
+@media screen and (min-width:900px) {
+
+    .loader {
+        margin: 20% auto;
+    }
+}

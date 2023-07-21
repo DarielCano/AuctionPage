@@ -1,0 +1,13 @@
+.clock-info {
+    color: red;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center
+}
+
+.clock-info p,
+.clock-info strong {
+    font-size: 0.9rem;
+}

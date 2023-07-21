@@ -1,0 +1,52 @@
+.sidebar-container {
+    align-self: flex-start;
+    width: 30%;
+
+    border: thin solid black;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.search-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-header h2 {
+    padding: 1rem;
+}
+
+.search-block {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-block input {
+    height: 100%;
+    border: thin solid black;
+    border-radius: 15px;
+    color: black;
+    padding-left: 1rem;
+}
+
+.search-result {
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+
+}
+
+.search-list {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}

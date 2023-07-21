@@ -1,0 +1,16 @@
+.gral-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.item-container {
+    width: 60%;
+    min-height: 100vh;
+
+}

@@ -1,0 +1,30 @@
+.prod-container {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+
+}
+
+.prod-img {
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.prod-img img {}
+
+
+.prod-title {
+    width: fit-content;
+}
+
+.prod-auctionPrice {}
+
+.prod-auction {}
+
+.prod-delete {
+    cursor: pointer;
+}

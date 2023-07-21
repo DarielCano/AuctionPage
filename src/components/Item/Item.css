@@ -1,0 +1,109 @@
+.card {
+    padding: 0.5rem;
+    max-width: 18rem;
+
+
+    border: 3px solid var(--azul);
+    border-radius: 13px;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.card-img {
+    width: 100%;
+    margin: 0 auto;
+    height: 60%;
+
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-content {
+    padding-top: 0.5rem;
+    height: 40%;
+    background-color: var(--azul);
+    width: 100%;
+    border-radius: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.card-title {
+    width: 100%;
+}
+
+.card-title h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.card-btn {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-price {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.card-price__price {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+.card-price strong {
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+
+.card-btn {
+    height: 3rem;
+
+}
+
+.card-btn button {
+    width: 30%;
+}
+
+.card-btn input {
+    border: thin solid black;
+    height: 100%;
+    padding-left: 0.5rem;
+    border-radius: 15px;
+    width: 70%;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+}
